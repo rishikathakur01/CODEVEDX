@@ -1,9 +1,10 @@
 import requests
 
 city_name = input("Enter city name: ")
-API_Key = '92a88438bb21285def83fbc4149d6c1e'
-weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_Key}&units=metric'
+# NOTE FOR CODEVEDX EVALUATORS: Replace 'YOUR_API_KEY_HERE' with your actual OpenWeatherMap API Key
+API_Key = 'YOUR_API_KEY_HERE'
 
+weather_url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_Key}&units=metric'
 
 response = requests.get(weather_url)
 if response.status_code == 200:
