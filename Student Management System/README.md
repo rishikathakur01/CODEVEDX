@@ -1,38 +1,29 @@
 Student Management System
-Ek Python-based console application jo students ke academic records ko manage karne ke liye banayi gayi hai. Yeh project CRUD (Create, Read, Update, Delete) operations ko support karta hai aur data persistence ke liye JSON file ka use karta hai.
+Student Management System focuses on managing student records such as adding, updating, deleting, and viewing details using Python.
 
 Features
-Add Student: Naye student ka naam aur grade database mein add karein.
+Well-Structured: The program uses functions and classes to organize operations like add, update, delete, and search.
 
-Modify Student Score: Existing student ke marks ko update karein.
+Accurate and Reliable: Proper input validation and exception handling are implemented to prevent runtime errors.
 
-Remove Student: Database se kisi student ka record hatayein.
+Feature-Focused: The system supports CRUD operations (Create, Read, Update, Delete) and file/database storage.
 
-Search Student: Kisi specific student ka record turant search karein.
+Clearly Reported: Output is displayed in a clean and readable tabular format.
 
-Show All Records: Saare students ka data ek organized table mein dekhein.
+Reproducible: Code is modular and documented for future improvements.
 
-Data Persistence: Saara data student_records.json file mein save hota hai, jisse program band hone par bhi data loss nahi hota.
+Technologies Used
+Python 3.x
 
-Error Handling: Galat inputs (jaise string ki jagah number) ko handle karne ke liye robust exception handling.
+JSON (for file/database storage)
 
-Technology Stack
-Language: Python
+Installation & Setup
+1. Prerequisites
+Ensure Python is installed on your system.
 
-Storage: JSON
+2. Setup Instructions
+Clone the repository or download the source code.
 
-How to Run
-Apne computer mein Python installed hona chahiye.
+Navigate to the project directory in your terminal.
 
-Repository ko clone karein ya code download karein.
-
-Terminal/Command Prompt open karein aur project folder mein jayein.
-
-Niche di gayi command run karein:
-
-Bash
-python app.py
-Project Structure
-app.py: Main application code aur logic.
-
-student_records.json: Auto-generated file jo data store karti hai.
+Run the application using: python app.py
